@@ -27,7 +27,7 @@ const Sidebar = () => {
       >
         <X />
       </Button>
-      <h1 className="font-serif text-5xl ">Radio Station 23</h1>
+      <h1 className="font-serif text-5xl ">Rádio Jobs</h1>
 
       <ul className="flex flex-col gap-5">
         {links.map((link) => (
@@ -54,13 +54,13 @@ const Sidebar = () => {
         <Moon className="w-6 h-6" />
       </div>
       <p className="text-center">
-        Developed by{" "}
+        Desenvolvido por{" "}
         <a
           target="_blank"
           className="underline underline-offset-2"
-          href="https://www.christosuster.dev/"
+          href="https://www.radiojobs.com.br"
         >
-          Christos
+          Rádio Jobs
         </a>
       </p>
     </div>
