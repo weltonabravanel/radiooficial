@@ -8,7 +8,7 @@ import { Button } from "../ui/button";
 const links = [
   { name: "Browse", path: "/", icon: <BoomBox /> },
   { name: "Radio Map", path: "/radio-map", icon: <Globe2 /> },
-  { name: "Favorites", path: "/favorites", icon: <FolderHeart /> },
+  { name: "Favoritos", path: "/favorites", icon: <FolderHeart /> },
 ];
 
 const Sidebar = () => {
