@@ -6,8 +6,8 @@ import { useTheme } from "../../contexts/theme-provider";
 import { Button } from "../ui/button";
 
 const links = [
-  { name: "Browse", path: "/", icon: <BoomBox /> },
-  { name: "Radio Map", path: "/radio-map", icon: <Globe2 /> },
+  { name: "Navegar", path: "/", icon: <BoomBox /> },
+  { name: "Rádio Map", path: "/radio-map", icon: <Globe2 /> },
   { name: "Favoritos", path: "/favorites", icon: <FolderHeart /> },
 ];
 
