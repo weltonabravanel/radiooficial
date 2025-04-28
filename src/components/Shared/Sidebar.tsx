@@ -9,6 +9,7 @@ const links = [
   { name: "Navegar", path: "/", icon: <BoomBox /> },
   { name: "Rádio Map", path: "/radio-map", icon: <Globe2 /> },
   { name: "Favoritos", path: "/favorites", icon: <FolderHeart /> },
+  { name: "Whatsapp (31)98284-5056", path: "/favorites", icon: <FolderHeart /> },
 ];
 
 const Sidebar = () => {
