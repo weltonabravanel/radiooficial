@@ -45,15 +45,15 @@ export function SelectCountry({
           {selectedCountry
             ? value
               ? data.find((item) => item.name.toLowerCase() === value)?.name
-              : `Select country`
-            : `Select country`}
+              : `Selecionar País`
+            : `Selecionar País`}
 
           <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-[200px] p-0 ">
         <Command>
-          <CommandInput placeholder={`Search by country`} />
+          <CommandInput placeholder={`Buscar por País`} />
           <CommandEmpty>{`Country not found!`}</CommandEmpty>
           <CommandGroup className="h-[300px] overflow-y-auto">
             {data.map((item, i) => (

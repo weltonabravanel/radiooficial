@@ -45,14 +45,14 @@ export function SelectLanguage({
           {selectedLanguage
             ? value
               ? data.find((item) => item.name.toLowerCase() === value)?.name
-              : `Select language`
-            : `Select language`}
+              : `Selecionar Idioma`
+            : `Selecionar Idioma`}
           <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-[200px] p-0 ">
         <Command>
-          <CommandInput placeholder={`Search by language`} />
+          <CommandInput placeholder={`Busca por idioma`} />
           <CommandEmpty>{`Language not found!`}</CommandEmpty>
           <CommandGroup className="h-[300px] overflow-y-auto">
             {data.map((item, i) => (

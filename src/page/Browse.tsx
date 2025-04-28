@@ -123,7 +123,7 @@ const Browse = () => {
         <div className="flex  min-w-[200px]">
           <Input
             className="border-2 rounded-lg focus-visible:ring-0 border-primary rounded-r-none font-bold dark:placeholder-primary placeholder-primary"
-            placeholder="Search by name"
+            placeholder="Buscar por Nome"
             onChange={(e) => (ref.current = e.target.value)}
             type="text"
           />
