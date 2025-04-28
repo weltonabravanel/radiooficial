@@ -40,7 +40,7 @@ const Browse = () => {
     if (selectedCountry) {
       axios
         .get(
-          `https://de1.api.radio-browser.info/json/stations/bycountrycodeexact/${selectedCountry}?limit=100`
+          `https://de1.api.radio-browser.info/json/stations/bycountrycodeexact/${selectedCountry}?limit=200`
         )
         .then((res) => {
           setStations(res.data);
@@ -50,7 +50,7 @@ const Browse = () => {
     } else if (selectedLanguage) {
       axios
         .get(
-          `https://de1.api.radio-browser.info/json/stations/bylanguage/${selectedLanguage}?limit=100`
+          `https://de1.api.radio-browser.info/json/stations/bylanguage/${selectedLanguage}?limit=200`
         )
         .then((res) => {
           setStations(res.data);
@@ -69,7 +69,7 @@ const Browse = () => {
         .finally(() => setLoading(false));
     } else {
       axios
-        .get("https://de1.api.radio-browser.info/json/stations/topvote/100")
+        .get("https://de1.api.radio-browser.info/json/stations/topvote/200")
         .then((res) => {
           setStations(res.data);
         })
@@ -86,7 +86,7 @@ const Browse = () => {
 
     axios
       .get(
-        "https://de1.api.radio-browser.info/json/languages?hidebroken=true&limit=100&reverse=true&order=stationcount"
+        "https://de1.api.radio-browser.info/json/languages?hidebroken=true&limit=200&reverse=true&order=stationcount"
       )
       .then((res) => {
         setLanguages(res.data);
