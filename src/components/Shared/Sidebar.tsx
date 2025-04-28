@@ -4,13 +4,17 @@ import { NavLink } from "react-router-dom";
 import { Switch } from "../ui/switch";
 import { useTheme } from "../../contexts/theme-provider";
 import { Button } from "../ui/button";
-import { DiCodeigniter } from "react-icons/di";
+
+
+
 
 const links = [
   { name: "Navegar", path: "/", icon: <BoomBox /> },
   { name: "Rádio Map", path: "/radio-map", icon: <Globe2 /> },
   { name: "Favoritos", path: "/favorites", icon: <FolderHeart /> },
-  { name: "Whatsapp", path: "https://wa.me/5531982845056?text=Oi%20quero%20adicionar%20minha%20r%C3%A1dio", icon: <DiCodeigniter /> }, 
+  { name: "Adicione Sua Rádio", path: "https://wa.me/5531982845056?text=Oi%20quero%20adicionar%20minha%20r%C3%A1dio", icon: <FolderHeart /> },
+  
+
 ];
 
 const Sidebar = () => {
