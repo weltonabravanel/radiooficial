@@ -97,8 +97,8 @@ const Browse = () => {
   return (
     <div className="flex flex-col gap-3 relative">
       <div className="py-6 text-center">
-        <h1 className="text-5xl font-bold">Navegar</h1>
-        <h1 className="text-2xl leading-8  font-thin">Nossas 100 melhores estações</h1>
+        <h1 className="text-5xl font-bold">1 Milhão de Rádios</h1>
+        <h1 className="text-2xl leading-8  font-thin">Aqui está ás 100 melhores estações</h1>
       </div>
       <Button
         variant={"unstyled"}
