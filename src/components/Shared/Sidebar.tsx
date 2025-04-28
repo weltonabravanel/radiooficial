@@ -9,7 +9,7 @@ const links = [
   { name: "Navegar", path: "/", icon: <BoomBox /> },
   { name: "Rádio Map", path: "/radio-map", icon: <Globe2 /> },
   { name: "Favoritos", path: "/favorites", icon: <FolderHeart /> },
-  { name: "Whatsapp", path: "https://wa.me/5531982845056?text=Oi%20quero%20adicionar%20minha%20r%C3%A1dio", icon: <DiAndroid /> },
+  { name: "Whatsapp", path: "https://wa.me/5531982845056?text=Oi%20quero%20adicionar%20minha%20r%C3%A1dio", icon: <DiAndroid /> }, 
 ];
 
 const Sidebar = () => {
