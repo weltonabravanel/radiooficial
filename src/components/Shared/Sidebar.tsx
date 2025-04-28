@@ -11,9 +11,9 @@ import { Button } from "../ui/button";
 const links = [
   { name: "Navegar", path: "/", icon: <BoomBox /> },
   { name: "Favoritos", path: "/favorites", icon: <FolderHeart /> },
-  { name: "Rádio Map", path: "/radio-map", icon: <Globe2 /> },
+  { name: "Rádio Mapa", path: "/radio-map", icon: <Globe2 /> },
   { name: "Adicione Sua Rádio", path: "https://wa.me/5531982845056?text=Oi%20quero%20adicionar%20minha%20r%C3%A1dio", icon: <FolderHeart /> },
-  
+  { name: "Aplicativos", path: "https://youtubeplay.com.br/aplicativo.html", icon: <Globe2 /> },
 
 ];
 
