@@ -32,7 +32,7 @@ const RadioMap = () => {
     setLoading(true);
     axios
       .get(
-        "https://de1.api.radio-browser.info/json/stations/search?has_geo_info=true&limit=500&hidebroken=true"
+        "https://de2.api.radio-browser.info/json/stations/search?has_geo_info=true&limit=500&hidebroken=true"
       )
       .then((res) => {
         setData(res.data);
